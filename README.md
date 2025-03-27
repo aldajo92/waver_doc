@@ -21,9 +21,9 @@ The ROS2 simulation for the Waver project is divided into the following reposito
 [Docker container for ROS2 development](https://github.com/aldajo92/ROS2_Docker_UI)
 
 ROS2 Dependencies:
-- [Waver Description]()
-- [Waver CV]()
-- [Waver Bringup]()
+- [Waver Description](https://github.com/aldajo92/waver_description_ros2)
+- [Waver CV](https://github.com/aldajo92/waver_cv_ros2)
+- [Waver Bringup](https://github.com/aldajo92/waver_bringup_ros2)
 
 Some useful videos about Waver simulation:
 - [Map Creation](https://youtu.be/AoRMaDEAwi0)
