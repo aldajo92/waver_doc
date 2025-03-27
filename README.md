@@ -28,3 +28,4 @@ ROS2 Dependencies:
 Some useful videos about Waver simulation:
 - [Map Creation](https://youtu.be/AoRMaDEAwi0)
 - [Localization](https://youtu.be/lmo4bQItBuc)
+- [Navigation](https://youtu.be/TQU_-gRvsCE)
