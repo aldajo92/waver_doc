@@ -9,7 +9,36 @@ This repository contains the documentation for the Waver project.
 - [ROS2 Simulation]
 
 ## Hardware Setup
-(Section in progress)
+
+Install a raspberry pi image in a sdcard using [imager](https://www.raspberrypi.com/software/).
+- user recommended : `robot`
+- hostname recommended : `waverbot01`
+
+Connect via ssh: `ssh robot@waverbot01.local`
+
+Once connected to the OS via ssh, install docker using the [script method](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script):
+
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+
+Then use the [linux-post install setup](https://docs.docker.com/engine/install/linux-postinstall/):
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+```
+
+Then make sure to enable i2c and VNC using `raspiconfig`:
+
+```bash
+sudo raspi-config
+# Go to: "Interface Option" -> I2C -> Enable I2C
+# Go to: "Interface Option" -> VNC -> Enable VNC
+```
+
 
 ## Software Setup
 (Section in progress)
